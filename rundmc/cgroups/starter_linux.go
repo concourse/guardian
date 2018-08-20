@@ -14,8 +14,8 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
 
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/cgroups/fs"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/cgroups/fs"
 	"code.cloudfoundry.org/lager"
 )
 

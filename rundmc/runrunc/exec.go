@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/goci"
 	"code.cloudfoundry.org/lager"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )

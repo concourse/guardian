@@ -9,9 +9,9 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/imageplugin"
-	fakes "code.cloudfoundry.org/guardian/imageplugin/imagepluginfakes"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/imageplugin"
+	fakes "github.com/concourse/guardian/imageplugin/imagepluginfakes"
 	"code.cloudfoundry.org/lager"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

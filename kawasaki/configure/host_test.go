@@ -6,10 +6,10 @@ import (
 	"net"
 	"os"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
-	"code.cloudfoundry.org/guardian/kawasaki/configure"
-	"code.cloudfoundry.org/guardian/kawasaki/devices/fakedevices"
-	"code.cloudfoundry.org/guardian/kawasaki/netns"
+	"github.com/concourse/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki/configure"
+	"github.com/concourse/guardian/kawasaki/devices/fakedevices"
+	"github.com/concourse/guardian/kawasaki/netns"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

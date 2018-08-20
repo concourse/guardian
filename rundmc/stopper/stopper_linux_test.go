@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"code.cloudfoundry.org/guardian/rundmc/stopper"
-	fakes "code.cloudfoundry.org/guardian/rundmc/stopper/stopperfakes"
+	"github.com/concourse/guardian/rundmc/stopper"
+	fakes "github.com/concourse/guardian/rundmc/stopper/stopperfakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

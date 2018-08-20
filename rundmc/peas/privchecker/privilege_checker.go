@@ -3,7 +3,7 @@ package privchecker
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
+	"github.com/concourse/guardian/rundmc/runrunc"
 )
 
 type PrivilegeChecker struct {

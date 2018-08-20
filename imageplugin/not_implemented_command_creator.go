@@ -3,7 +3,7 @@ package imageplugin
 import (
 	"os/exec"
 
-	"code.cloudfoundry.org/guardian/gardener"
+	"github.com/concourse/guardian/gardener"
 	"code.cloudfoundry.org/lager"
 )
 

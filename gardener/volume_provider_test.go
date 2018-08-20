@@ -9,8 +9,8 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	fakes "code.cloudfoundry.org/guardian/gardener/gardenerfakes"
+	"github.com/concourse/guardian/gardener"
+	fakes "github.com/concourse/guardian/gardener/gardenerfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

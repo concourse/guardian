@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
-	fakes "code.cloudfoundry.org/guardian/kawasaki/iptables/iptablesfakes"
+	"github.com/concourse/guardian/kawasaki/iptables"
+	fakes "github.com/concourse/guardian/kawasaki/iptables/iptablesfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/signals"
+	"github.com/concourse/guardian/rundmc/signals"
 )
 
 type FakeSignaller struct {

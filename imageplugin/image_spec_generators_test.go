@@ -1,7 +1,7 @@
 package imageplugin_test
 
 import (
-	"code.cloudfoundry.org/guardian/imageplugin"
+	"github.com/concourse/guardian/imageplugin"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

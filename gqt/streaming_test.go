@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gqt/runner"
-	. "code.cloudfoundry.org/guardian/matchers"
+	"github.com/concourse/guardian/gqt/runner"
+	. "github.com/concourse/guardian/matchers"
 
 	archiver "code.cloudfoundry.org/archiver/extractor/test_helper"
 	. "github.com/onsi/ginkgo"

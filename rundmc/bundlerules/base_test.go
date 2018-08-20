@@ -5,9 +5,9 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/opencontainers/runtime-spec/specs-go"
 
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/bundlerules"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/bundlerules"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 var _ = Describe("Base", func() {

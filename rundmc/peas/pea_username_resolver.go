@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/users"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/users"
 	"code.cloudfoundry.org/lager"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )

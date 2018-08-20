@@ -1,7 +1,7 @@
 package users_test
 
 import (
-	"code.cloudfoundry.org/guardian/rundmc/users"
+	"github.com/concourse/guardian/rundmc/users"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

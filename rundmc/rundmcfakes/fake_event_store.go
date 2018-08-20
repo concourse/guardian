@@ -4,7 +4,7 @@ package rundmcfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc"
 )
 
 type FakeEventStore struct {

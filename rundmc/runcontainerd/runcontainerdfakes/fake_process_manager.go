@@ -5,7 +5,7 @@ import (
 	"sync"
 	"syscall"
 
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
 	"code.cloudfoundry.org/lager"
 )
 

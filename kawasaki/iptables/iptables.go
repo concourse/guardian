@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/pkg/locksmith"
+	"github.com/concourse/guardian/pkg/locksmith"
 
 	"code.cloudfoundry.org/commandrunner"
 )

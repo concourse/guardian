@@ -10,7 +10,7 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 
 	"code.cloudfoundry.org/garden"
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
+	spec "github.com/concourse/guardian/gardener/container-spec"
 	"code.cloudfoundry.org/lager"
 )
 

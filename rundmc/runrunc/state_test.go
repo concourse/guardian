@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os/exec"
 
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
-	fakes "code.cloudfoundry.org/guardian/rundmc/runrunc/runruncfakes"
+	"github.com/concourse/guardian/rundmc/runrunc"
+	fakes "github.com/concourse/guardian/rundmc/runrunc/runruncfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

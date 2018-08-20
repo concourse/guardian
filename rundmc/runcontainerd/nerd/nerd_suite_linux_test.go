@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.cloudfoundry.org/guardian/gqt/containerdrunner"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/cgroups"
+	"github.com/concourse/guardian/gqt/containerdrunner"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/cgroups"
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/burntsushi/toml"
 	"github.com/containerd/containerd"

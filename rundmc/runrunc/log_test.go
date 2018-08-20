@@ -8,7 +8,7 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	. "code.cloudfoundry.org/commandrunner/fake_command_runner/matchers"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
+	"github.com/concourse/guardian/rundmc/runrunc"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

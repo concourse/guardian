@@ -4,7 +4,7 @@ package depotfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/depot"
+	"github.com/concourse/guardian/rundmc/depot"
 )
 
 type FakeChowner struct {

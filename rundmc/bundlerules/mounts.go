@@ -2,9 +2,9 @@ package bundlerules
 
 import (
 	"code.cloudfoundry.org/garden"
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/goci"
 	"github.com/docker/docker/pkg/mount"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )

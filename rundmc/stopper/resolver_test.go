@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/guardian/rundmc/stopper"
+	"github.com/concourse/guardian/rundmc/stopper"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

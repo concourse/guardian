@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/imageplugin"
+	"github.com/concourse/guardian/imageplugin"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	specs "github.com/opencontainers/image-spec/specs-go"

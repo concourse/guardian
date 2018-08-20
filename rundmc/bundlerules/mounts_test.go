@@ -9,10 +9,10 @@ import (
 	"github.com/opencontainers/runtime-spec/specs-go"
 
 	"code.cloudfoundry.org/garden"
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/bundlerules"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	"code.cloudfoundry.org/guardian/rundmc/rundmcfakes"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/bundlerules"
+	"github.com/concourse/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/rundmcfakes"
 )
 
 var _ = Describe("MountsRule", func() {

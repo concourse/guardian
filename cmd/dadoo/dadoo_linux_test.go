@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/cgroups"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/cgroups"
+	"github.com/concourse/guardian/rundmc/goci"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

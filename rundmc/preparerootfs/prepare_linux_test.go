@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"code.cloudfoundry.org/guardian/rundmc/preparerootfs"
+	"github.com/concourse/guardian/rundmc/preparerootfs"
 	"github.com/docker/docker/pkg/reexec"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

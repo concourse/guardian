@@ -3,9 +3,9 @@ package privchecker_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	"code.cloudfoundry.org/guardian/rundmc/peas/privchecker"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc/runruncfakes"
+	"github.com/concourse/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/peas/privchecker"
+	"github.com/concourse/guardian/rundmc/runrunc/runruncfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

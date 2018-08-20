@@ -4,7 +4,7 @@ package fsfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/cgroups/fs"
+	"github.com/concourse/guardian/rundmc/cgroups/fs"
 )
 
 type FakeFS struct {

@@ -1,7 +1,7 @@
 package ports_test
 
 import (
-	"code.cloudfoundry.org/guardian/kawasaki/ports"
+	"github.com/concourse/guardian/kawasaki/ports"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

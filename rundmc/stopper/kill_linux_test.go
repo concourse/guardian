@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"code.cloudfoundry.org/guardian/rundmc/stopper"
+	"github.com/concourse/guardian/rundmc/stopper"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"

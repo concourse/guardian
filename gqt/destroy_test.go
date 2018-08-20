@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gqt/runner"
+	"github.com/concourse/guardian/gqt/runner"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

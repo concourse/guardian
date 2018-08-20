@@ -22,7 +22,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd/nerd"
+	"github.com/concourse/guardian/rundmc/runcontainerd/nerd"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 )

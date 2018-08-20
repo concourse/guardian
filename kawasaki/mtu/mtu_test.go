@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/kawasaki/mtu"
+	"github.com/concourse/guardian/kawasaki/mtu"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

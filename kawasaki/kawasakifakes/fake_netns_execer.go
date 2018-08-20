@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki"
 )
 
 type FakeNetnsExecer struct {

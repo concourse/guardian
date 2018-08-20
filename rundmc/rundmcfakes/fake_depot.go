@@ -4,8 +4,8 @@ package rundmcfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc"
+	"github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc"
 	"code.cloudfoundry.org/lager"
 )
 

@@ -4,7 +4,7 @@ package peasfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/peas"
+	"github.com/concourse/guardian/rundmc/peas"
 )
 
 type FakePrivilegedGetter struct {

@@ -10,7 +10,7 @@ import (
 
 	"code.cloudfoundry.org/commandrunner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/logging"
+	"github.com/concourse/guardian/logging"
 	"code.cloudfoundry.org/lager"
 )
 

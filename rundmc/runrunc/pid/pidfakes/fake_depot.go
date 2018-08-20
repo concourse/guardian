@@ -4,7 +4,7 @@ package pidfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/runrunc/pid"
+	"github.com/concourse/guardian/rundmc/runrunc/pid"
 	"code.cloudfoundry.org/lager"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/imageplugin"
+	"github.com/concourse/guardian/imageplugin"
 )
 
 type FakeImageSpecCreator struct {

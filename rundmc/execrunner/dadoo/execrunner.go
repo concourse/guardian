@@ -16,9 +16,9 @@ import (
 
 	"code.cloudfoundry.org/commandrunner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/logging"
-	"code.cloudfoundry.org/guardian/rundmc/execrunner"
-	"code.cloudfoundry.org/guardian/rundmc/signals"
+	"github.com/concourse/guardian/logging"
+	"github.com/concourse/guardian/rundmc/execrunner"
+	"github.com/concourse/guardian/rundmc/signals"
 	"code.cloudfoundry.org/lager"
 )
 

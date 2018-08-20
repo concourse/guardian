@@ -5,8 +5,8 @@ import (
 	"syscall"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd/runcontainerdfakes"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/rundmc/runcontainerd/runcontainerdfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

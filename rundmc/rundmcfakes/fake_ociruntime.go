@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/runrunc"
 	"code.cloudfoundry.org/lager"
 )
 

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/rundmc/peas/processwaiter"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/rundmc/peas/processwaiter"
 	"code.cloudfoundry.org/lager"
 	multierror "github.com/hashicorp/go-multierror"
 )

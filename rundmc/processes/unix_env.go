@@ -4,7 +4,7 @@ import (
 	"regexp"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 const DefaultRootPath = "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"

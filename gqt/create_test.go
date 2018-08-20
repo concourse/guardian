@@ -15,10 +15,10 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gqt/cgrouper"
-	"code.cloudfoundry.org/guardian/gqt/runner"
+	"github.com/concourse/guardian/gqt/cgrouper"
+	"github.com/concourse/guardian/gqt/runner"
 
-	. "code.cloudfoundry.org/guardian/matchers"
+	. "github.com/concourse/guardian/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

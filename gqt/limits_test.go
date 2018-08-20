@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gqt/cgrouper"
-	"code.cloudfoundry.org/guardian/gqt/runner"
+	"github.com/concourse/guardian/gqt/cgrouper"
+	"github.com/concourse/guardian/gqt/runner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

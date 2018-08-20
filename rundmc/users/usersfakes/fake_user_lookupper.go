@@ -4,7 +4,7 @@ package usersfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/users"
+	"github.com/concourse/guardian/rundmc/users"
 )
 
 type FakeUserLookupper struct {

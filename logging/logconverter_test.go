@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/logging"
+	"github.com/concourse/guardian/logging"
 	"code.cloudfoundry.org/lager"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

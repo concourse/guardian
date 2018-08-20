@@ -3,10 +3,10 @@ package rundmc_test
 import (
 	"errors"
 
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	fakes "code.cloudfoundry.org/guardian/rundmc/rundmcfakes"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/goci"
+	fakes "github.com/concourse/guardian/rundmc/rundmcfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/opencontainers/runtime-spec/specs-go"

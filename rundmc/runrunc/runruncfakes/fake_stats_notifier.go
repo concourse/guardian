@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
+	"github.com/concourse/guardian/rundmc/runrunc"
 )
 
 type FakeStatsNotifier struct {

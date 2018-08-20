@@ -3,8 +3,8 @@ package gardener_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/guardian/gardener"
-	fakes "code.cloudfoundry.org/guardian/gardener/gardenerfakes"
+	"github.com/concourse/guardian/gardener"
+	fakes "github.com/concourse/guardian/gardener/gardenerfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

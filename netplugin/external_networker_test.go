@@ -9,11 +9,11 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/kawasaki"
-	"code.cloudfoundry.org/guardian/kawasaki/kawasakifakes"
-	"code.cloudfoundry.org/guardian/netplugin"
-	"code.cloudfoundry.org/guardian/properties"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki/kawasakifakes"
+	"github.com/concourse/guardian/netplugin"
+	"github.com/concourse/guardian/properties"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

@@ -4,9 +4,9 @@ package rundmcfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 type FakeBundlerRule struct {

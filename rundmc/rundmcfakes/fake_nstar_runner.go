@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc"
 	"code.cloudfoundry.org/lager"
 )
 

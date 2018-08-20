@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	fakes "code.cloudfoundry.org/guardian/gardener/gardenerfakes"
+	"github.com/concourse/guardian/gardener"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	fakes "github.com/concourse/guardian/gardener/gardenerfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	"code.cloudfoundry.org/guardian/rundmc/processes"
+	"github.com/concourse/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/processes"
 )
 
 type FakeEnvDeterminer struct {

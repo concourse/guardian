@@ -1,7 +1,7 @@
 package goci_test
 
 import (
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/goci"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

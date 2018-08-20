@@ -2,9 +2,9 @@ package processes_test
 
 import (
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	"code.cloudfoundry.org/guardian/rundmc/processes"
-	fakes "code.cloudfoundry.org/guardian/rundmc/processes/processesfakes"
+	"github.com/concourse/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/processes"
+	fakes "github.com/concourse/guardian/rundmc/processes/processesfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

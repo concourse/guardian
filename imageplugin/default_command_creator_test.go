@@ -5,8 +5,8 @@ import (
 	"os/exec"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/imageplugin"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/imageplugin"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -4,7 +4,7 @@ package signalsfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/signals"
+	"github.com/concourse/guardian/rundmc/signals"
 )
 
 type FakePidGetter struct {

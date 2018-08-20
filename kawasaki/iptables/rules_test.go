@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
+	"github.com/concourse/guardian/kawasaki/iptables"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

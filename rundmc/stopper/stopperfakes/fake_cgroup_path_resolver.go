@@ -4,7 +4,7 @@ package stopperfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/stopper"
+	"github.com/concourse/guardian/rundmc/stopper"
 )
 
 type FakeCgroupPathResolver struct {

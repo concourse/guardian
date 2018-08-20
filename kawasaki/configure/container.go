@@ -15,9 +15,9 @@ import (
 
 	"github.com/docker/docker/pkg/reexec"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
-	"code.cloudfoundry.org/guardian/kawasaki/devices"
-	"code.cloudfoundry.org/guardian/kawasaki/netns"
+	"github.com/concourse/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki/devices"
+	"github.com/concourse/guardian/kawasaki/netns"
 	"code.cloudfoundry.org/lager"
 )
 

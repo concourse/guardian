@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/kawasaki/subnets"
+	"github.com/concourse/guardian/kawasaki/subnets"
 )
 
 type FakeIPSelector struct {

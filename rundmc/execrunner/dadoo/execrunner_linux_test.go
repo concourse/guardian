@@ -18,9 +18,9 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/execrunner/dadoo"
-	"code.cloudfoundry.org/guardian/rundmc/signals"
-	"code.cloudfoundry.org/guardian/rundmc/signals/signalsfakes"
+	"github.com/concourse/guardian/rundmc/execrunner/dadoo"
+	"github.com/concourse/guardian/rundmc/signals"
+	"github.com/concourse/guardian/rundmc/signals/signalsfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

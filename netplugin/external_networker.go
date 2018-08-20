@@ -11,8 +11,8 @@ import (
 
 	"code.cloudfoundry.org/commandrunner"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/kawasaki"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/kawasaki"
 	"code.cloudfoundry.org/lager"
 )
 

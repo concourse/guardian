@@ -4,8 +4,8 @@ package runcontainerdfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
 	"code.cloudfoundry.org/lager"
 )
 

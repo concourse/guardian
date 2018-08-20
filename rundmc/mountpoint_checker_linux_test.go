@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"syscall"
 
-	"code.cloudfoundry.org/guardian/rundmc/stopper"
+	"github.com/concourse/guardian/rundmc/stopper"
 )
 
 type FakeKiller struct {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/rundmc/runrunc/pid"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc/pid/pidfakes"
+	"github.com/concourse/guardian/rundmc/runrunc/pid"
+	"github.com/concourse/guardian/rundmc/runrunc/pid/pidfakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

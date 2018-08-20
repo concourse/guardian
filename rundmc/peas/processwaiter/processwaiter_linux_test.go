@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"code.cloudfoundry.org/guardian/rundmc/peas/processwaiter"
+	"github.com/concourse/guardian/rundmc/peas/processwaiter"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

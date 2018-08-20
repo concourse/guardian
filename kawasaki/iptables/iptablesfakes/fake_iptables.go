@@ -4,7 +4,7 @@ package iptablesfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
+	"github.com/concourse/guardian/kawasaki/iptables"
 )
 
 type FakeIPTables struct {

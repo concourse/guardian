@@ -7,7 +7,7 @@ import (
 	"os/exec"
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
+	"github.com/concourse/guardian/kawasaki/iptables"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

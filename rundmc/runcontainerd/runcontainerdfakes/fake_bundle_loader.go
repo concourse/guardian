@@ -4,8 +4,8 @@ package runcontainerdfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/goci"
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
 )
 
 type FakeBundleLoader struct {

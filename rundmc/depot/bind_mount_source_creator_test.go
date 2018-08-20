@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/depot"
-	"code.cloudfoundry.org/guardian/rundmc/depot/depotfakes"
+	"github.com/concourse/guardian/rundmc/depot"
+	"github.com/concourse/guardian/rundmc/depot/depotfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

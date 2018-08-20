@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
-	fakes "code.cloudfoundry.org/guardian/kawasaki/kawasakifakes"
+	"github.com/concourse/guardian/kawasaki"
+	fakes "github.com/concourse/guardian/kawasaki/kawasakifakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

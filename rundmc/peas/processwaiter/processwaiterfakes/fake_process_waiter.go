@@ -4,7 +4,7 @@ package processwaiterfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/peas/processwaiter"
+	"github.com/concourse/guardian/rundmc/peas/processwaiter"
 )
 
 type FakeProcessWaiter struct {

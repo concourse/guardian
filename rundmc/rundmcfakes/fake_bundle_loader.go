@@ -4,8 +4,8 @@ package rundmcfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 type FakeBundleLoader struct {

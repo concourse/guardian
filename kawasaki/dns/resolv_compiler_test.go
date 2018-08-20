@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	. "code.cloudfoundry.org/guardian/kawasaki/dns"
+	. "github.com/concourse/guardian/kawasaki/dns"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

@@ -5,7 +5,7 @@ import (
 	"net"
 	"os"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki"
 	"code.cloudfoundry.org/lager"
 )
 

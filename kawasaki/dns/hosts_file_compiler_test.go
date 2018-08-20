@@ -4,7 +4,7 @@ import (
 	"net"
 	"strings"
 
-	. "code.cloudfoundry.org/guardian/kawasaki/dns"
+	. "github.com/concourse/guardian/kawasaki/dns"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

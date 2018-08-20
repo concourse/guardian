@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
+	"github.com/concourse/guardian/gardener"
 	"code.cloudfoundry.org/lager"
 )
 

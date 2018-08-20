@@ -1,7 +1,7 @@
 package sysinfo_test
 
 import (
-	"code.cloudfoundry.org/guardian/sysinfo"
+	"github.com/concourse/guardian/sysinfo"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

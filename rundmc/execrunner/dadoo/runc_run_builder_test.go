@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/rundmc/execrunner/dadoo"
+	"github.com/concourse/guardian/rundmc/execrunner/dadoo"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -2,7 +2,7 @@ package processes
 
 import (
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/goci"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

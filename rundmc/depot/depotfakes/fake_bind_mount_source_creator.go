@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/depot"
+	"github.com/concourse/guardian/rundmc/depot"
 )
 
 type FakeBindMountSourceCreator struct {

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc/pid"
+	"github.com/concourse/guardian/rundmc/runrunc/pid"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

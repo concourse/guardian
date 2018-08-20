@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/rundmc/preparerootfs"
+	"github.com/concourse/guardian/rundmc/preparerootfs"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

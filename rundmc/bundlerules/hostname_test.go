@@ -3,9 +3,9 @@ package bundlerules_test
 import (
 	"strings"
 
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/bundlerules"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/bundlerules"
+	"github.com/concourse/guardian/rundmc/goci"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

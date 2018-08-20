@@ -13,8 +13,8 @@ import (
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	. "code.cloudfoundry.org/commandrunner/fake_command_runner/matchers"
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/runrunc"
-	fakes "code.cloudfoundry.org/guardian/rundmc/runrunc/runruncfakes"
+	"github.com/concourse/guardian/rundmc/runrunc"
+	fakes "github.com/concourse/guardian/rundmc/runrunc/runruncfakes"
 )
 
 var _ = Describe("Stats", func() {

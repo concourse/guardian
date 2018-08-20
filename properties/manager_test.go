@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/properties"
+	"github.com/concourse/guardian/properties"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

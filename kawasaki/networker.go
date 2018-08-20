@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/kawasaki/subnets"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/kawasaki/subnets"
 	"code.cloudfoundry.org/lager"
 )
 

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

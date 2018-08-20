@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/rundmc/cgroups"
-	"code.cloudfoundry.org/guardian/rundmc/cgroups/fs/fsfakes"
-	"code.cloudfoundry.org/guardian/rundmc/rundmcfakes"
+	"github.com/concourse/guardian/rundmc/cgroups"
+	"github.com/concourse/guardian/rundmc/cgroups/fs/fsfakes"
+	"github.com/concourse/guardian/rundmc/rundmcfakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	. "github.com/onsi/ginkgo"

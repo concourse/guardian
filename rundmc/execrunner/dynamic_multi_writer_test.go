@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/execrunner"
+	"github.com/concourse/guardian/rundmc/execrunner"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

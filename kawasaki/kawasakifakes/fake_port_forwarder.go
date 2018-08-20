@@ -4,7 +4,7 @@ package kawasakifakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki"
 )
 
 type FakePortForwarder struct {

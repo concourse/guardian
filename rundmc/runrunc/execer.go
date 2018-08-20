@@ -11,7 +11,7 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/users"
+	"github.com/concourse/guardian/rundmc/users"
 	"code.cloudfoundry.org/idmapper"
 	"code.cloudfoundry.org/lager"
 	uuid "github.com/nu7hatch/gouuid"

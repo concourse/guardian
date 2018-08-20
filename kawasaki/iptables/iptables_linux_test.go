@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
-	fakes "code.cloudfoundry.org/guardian/kawasaki/iptables/iptablesfakes"
-	"code.cloudfoundry.org/guardian/pkg/locksmith"
+	"github.com/concourse/guardian/kawasaki/iptables"
+	fakes "github.com/concourse/guardian/kawasaki/iptables/iptablesfakes"
+	"github.com/concourse/guardian/pkg/locksmith"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

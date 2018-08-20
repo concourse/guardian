@@ -4,9 +4,9 @@ package depotfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/depot"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/depot"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 type FakeBundleGenerator struct {

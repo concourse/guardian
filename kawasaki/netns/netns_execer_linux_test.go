@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 
-	"code.cloudfoundry.org/guardian/kawasaki/netns"
+	"github.com/concourse/guardian/kawasaki/netns"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/vishvananda/netlink"

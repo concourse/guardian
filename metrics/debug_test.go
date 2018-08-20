@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"code.cloudfoundry.org/guardian/metrics"
+	"github.com/concourse/guardian/metrics"
 	"code.cloudfoundry.org/lager"
 	"github.com/tedsuo/ifrit"
 

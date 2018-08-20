@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/gardener/container-spec"
 	"code.cloudfoundry.org/lager"
 )
 

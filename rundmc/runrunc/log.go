@@ -7,7 +7,7 @@ import (
 	"os/exec"
 
 	"code.cloudfoundry.org/commandrunner"
-	"code.cloudfoundry.org/guardian/logging"
+	"github.com/concourse/guardian/logging"
 	"code.cloudfoundry.org/lager"
 )
 

@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/gqt/runner"
+	"github.com/concourse/guardian/gqt/runner"
 	yaml "gopkg.in/yaml.v2"
 
 	grootconf "code.cloudfoundry.org/grootfs/commands/config"

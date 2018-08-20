@@ -3,8 +3,8 @@ package bundlerules
 import (
 	"path/filepath"
 
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 type CGroupPath struct {

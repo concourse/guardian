@@ -5,8 +5,8 @@ import (
 
 	"code.cloudfoundry.org/commandrunner/fake_command_runner"
 	. "code.cloudfoundry.org/commandrunner/fake_command_runner/matchers"
-	"code.cloudfoundry.org/guardian/kawasaki"
-	"code.cloudfoundry.org/guardian/kawasaki/iptables"
+	"github.com/concourse/guardian/kawasaki"
+	"github.com/concourse/guardian/kawasaki/iptables"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

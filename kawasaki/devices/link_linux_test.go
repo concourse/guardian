@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/guardian/kawasaki/devices"
+	"github.com/concourse/guardian/kawasaki/devices"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/vishvananda/netlink"

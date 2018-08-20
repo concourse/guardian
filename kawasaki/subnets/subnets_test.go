@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"code.cloudfoundry.org/guardian/kawasaki/subnets"
+	"github.com/concourse/guardian/kawasaki/subnets"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 

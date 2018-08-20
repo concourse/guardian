@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"sync"
 
-	"code.cloudfoundry.org/guardian/gardener"
-	"code.cloudfoundry.org/guardian/imageplugin"
+	"github.com/concourse/guardian/gardener"
+	"github.com/concourse/guardian/imageplugin"
 	"code.cloudfoundry.org/lager"
 )
 

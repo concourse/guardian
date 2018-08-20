@@ -2,7 +2,7 @@ package processes
 
 import (
 	"code.cloudfoundry.org/garden"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	"github.com/concourse/guardian/rundmc/goci"
 )
 
 func WindowsEnvFor(bndl goci.Bndl, spec garden.ProcessSpec, _ int) []string {

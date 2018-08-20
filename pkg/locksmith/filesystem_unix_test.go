@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"code.cloudfoundry.org/guardian/pkg/locksmith"
+	"github.com/concourse/guardian/pkg/locksmith"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

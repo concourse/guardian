@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"code.cloudfoundry.org/garden"
-	spec "code.cloudfoundry.org/guardian/gardener/container-spec"
-	"code.cloudfoundry.org/guardian/rundmc/goci"
+	spec "github.com/concourse/guardian/gardener/container-spec"
+	"github.com/concourse/guardian/rundmc/goci"
 	"code.cloudfoundry.org/lager"
 )
 

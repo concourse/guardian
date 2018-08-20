@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/guardian/metrics"
+	"github.com/concourse/guardian/metrics"
 	"code.cloudfoundry.org/lager/lagertest"
 
 	. "github.com/onsi/ginkgo"

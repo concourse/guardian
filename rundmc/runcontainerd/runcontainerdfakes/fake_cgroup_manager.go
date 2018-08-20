@@ -4,7 +4,7 @@ package runcontainerdfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/guardian/rundmc/runcontainerd"
+	"github.com/concourse/guardian/rundmc/runcontainerd"
 )
 
 type FakeCgroupManager struct {
